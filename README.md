@@ -3,8 +3,6 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](header.png)
-
 ## Installation
 
 OS X & Linux:
