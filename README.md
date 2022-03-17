@@ -1,7 +1,7 @@
 # Simple C++ Websocket Server
 > This github repository documents my education of websocket programming with C++ 
 
-One to two paragraph statement about your product and what it does.
+This repository documents my journey with socket programming.
 
 ## Installation
 
