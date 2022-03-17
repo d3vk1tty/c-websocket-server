@@ -46,7 +46,7 @@ For convenience use the plugin Simple Websocket Client for [Chrome](https://chro
 
 ## Meta
 
-Your Name – [@d3vk1tty](https://twitter.com/d3vk1tty) – admin@devkitty.org
+Dev Kitty :3 – [@d3vk1tty](https://twitter.com/d3vk1tty) – admin@devkitty.org
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
