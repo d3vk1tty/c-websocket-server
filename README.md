@@ -37,7 +37,7 @@ Describe how to install all development dependencies and how to run an automated
 sudo apt install libboost-all-dev
 ```
 
-For convenience use the plugin Simple Websocket Client for [Chrome](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo) or [Firefox](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo)
+For convenience use the plugin Simple Websocket Client for [Chrome](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo) or [Firefox](hhttps://addons.mozilla.org/en-US/firefox/addon/simple-websocket-client/)
 
 ## Release History
 
