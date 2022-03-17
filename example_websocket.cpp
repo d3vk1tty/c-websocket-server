@@ -24,6 +24,13 @@ int main() {
         //create a new thread
         std::thread{[q {std::move(socket)}]() {
                 boost::beast::websocket::stream<tcp::socket> ws {std::move(const_cast<tcp::socket&>(q))};
+
+                ws.set_option(boost::beast::websocket::stream_base::decorator(
+                    [](boost::beast::websocket::response_type& res) {
+                        res.set(boost::beast::http::field::server, "asdasd");
+                    }
+                ));
+
                 ws.accept();
 
                 while(1) {
@@ -45,6 +52,5 @@ int main() {
             }
         }.detach();
     }
-
     return 0;
 }
