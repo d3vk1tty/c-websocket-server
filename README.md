@@ -19,13 +19,15 @@ This can be used to establish a connection and exchange information through TCP 
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
+
+
 ```sh
 sudo apt install libboost-all-dev
 g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
 ./websocket
 ```
 
-Once executed, create a connection with any client, send requests, or terminate.
+For convenience use the plugin Simple Websocket Client for [Chrome][https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo] or [Firefox][https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo]
 
 ## Release History
 
