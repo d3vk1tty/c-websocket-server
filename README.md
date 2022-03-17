@@ -11,6 +11,8 @@ OS X & Linux:
 git clone git@github.com:d3vk1tty/c-websocket-server.git
 ```
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Usage example
 
 This can be used to establish a connection and exchange information through TCP using the boost library.
@@ -24,6 +26,8 @@ socket accepted  #connection opened
 asd #request echo'd back to the client
 Operation canceled #connection closed
 ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -45,10 +49,14 @@ sudo apt install libboost-all-dev
 
 For convenience use the plugin Simple Websocket Client for [Chrome](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simple-websocket-client/)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Release History
 
 * 0.0.1
     * Work in progress
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Meta
 
@@ -58,6 +66,8 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/d3vk1tty/c-websocket-server](https://github.com/d3vk1tty/)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Contributing
 
 1. Fork it (<https://github.com/d3vk1tty/c-websocket-server/fork>)
@@ -65,3 +75,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
