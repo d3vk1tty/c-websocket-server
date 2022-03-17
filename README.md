@@ -20,9 +20,9 @@ Compile and execute [example_websocket.cpp](https://github.com/d3vk1tty/c-websoc
 ```sh
 g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
 ./websocket
-socket accepted
-asd
-Operation canceled
+socket accepted  #connection opened
+asd #request echo'd back to the client
+Operation canceled #connection closed
 ```
 
 
