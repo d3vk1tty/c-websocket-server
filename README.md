@@ -25,8 +25,14 @@ asd #request echo'd back to the client
 Operation canceled #connection closed
 ```
 
+<!-- ROADMAP -->
+## Roadmap
 
+- [ ] Implement [example_websocket.cpp](https://github.com/d3vk1tty/c-websocket-server/blob/main/example_websocket.cpp) into a lightweight reusable class
 
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Development setup
