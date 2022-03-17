@@ -18,8 +18,8 @@ This can be used to establish a connection and exchange information through TCP 
 Compile and execute [example_websocket.cpp](https://github.com/d3vk1tty/c-websocket-server/blob/main/example_websocket.cpp)
 
 ```sh
-g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
-./websocket
+> g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
+> ./websocket
 socket accepted  #connection opened
 asd #request echo'd back to the client
 Operation canceled #connection closed
