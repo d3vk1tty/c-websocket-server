@@ -15,8 +15,6 @@ git clone git@github.com:d3vk1tty/c-websocket-server.git
 
 This can be used to establish a connection and exchange information through TCP using the boost library.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
 ## Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
