@@ -15,16 +15,26 @@ git clone git@github.com:d3vk1tty/c-websocket-server.git
 
 This can be used to establish a connection and exchange information through TCP using the boost library.
 
+Compile and execute [example_websocket.cpp](https://github.com/d3vk1tty/c-websocket-server/blob/main/example_websocket.cpp)
+
+```sh
+g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
+./websocket
+socket accepted
+asd
+Operation canceled
+```
+
+
+
+
+
 ## Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
-
-
 ```sh
 sudo apt install libboost-all-dev
-g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
-./websocket
 ```
 
 For convenience use the plugin Simple Websocket Client for [Chrome](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo) or [Firefox](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo)
