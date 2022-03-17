@@ -21,9 +21,11 @@ Compile and execute [example_websocket.cpp](https://github.com/d3vk1tty/c-websoc
 
 ```sh
 > g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
+> g++ -I /usr/include/boost/ -pthread websocket_client.cpp -o websocket_client
 > ./websocket
-socket accepted  #connection opened
-asd #request echo'd back to the client
+> ./websocket_client 127.0.0.1 8085 "client message"
+socket accepted #connection opened
+client message #server echo client message
 Operation canceled #connection closed
 ```
 
