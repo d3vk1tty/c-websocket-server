@@ -27,7 +27,7 @@ g++ -I /usr/include/boost/ -pthread example_websocket.cpp -o websocket
 ./websocket
 ```
 
-For convenience use the plugin Simple Websocket Client for [https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo][Chrome] or [Firefox][https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo]
+For convenience use the plugin Simple Websocket Client for [Chrome](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo) or [Firefox](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo)
 
 ## Release History
 
